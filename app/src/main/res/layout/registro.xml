@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondor">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:id="@+id/imageView10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtUser"
+        android:ems="10"
+        android:layout_marginTop="125dp"
+        android:hint="Usuario"
+
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_marginTop="28dp"
+        android:hint="Contraseña"
+        android:id="@+id/edtPass"
+        android:layout_below="@+id/edtUser"
+        android:layout_alignLeft="@+id/edtUser"
+        android:layout_alignStart="@+id/edtUser" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CANCELAR"
+        android:id="@+id/btCancel"
+        android:onClick="cancelar"
+        android:background="@android:color/holo_red_dark"
+        android:layout_below="@+id/btRg"
+        android:layout_marginTop="18dp"
+        android:layout_alignRight="@+id/btRg"
+        android:layout_alignEnd="@+id/btRg"
+        android:layout_alignLeft="@+id/btRg"
+        android:layout_alignStart="@+id/btRg" />
+
+    <Button
+        android:text="REGISTRARSE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btRg"
+        android:onClick="registrar"
+        android:layout_marginTop="47dp"
+        android:background="@android:color/holo_green_light"
+        android:layout_below="@+id/edtPass"
+        android:layout_alignLeft="@+id/edtPass"
+        android:layout_alignStart="@+id/edtPass"
+        android:layout_alignRight="@+id/edtPass"
+        android:layout_alignEnd="@+id/edtPass" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lapiz_b"
+        android:id="@+id/gifImageView7"
+        android:layout_below="@+id/imageView10"
+        android:layout_toEndOf="@+id/edtUser"
+        android:layout_above="@+id/edtPass"
+        android:layout_toRightOf="@+id/edtUser" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/goma"
+        android:id="@+id/gifImageView8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/edtUser"
+        android:layout_toEndOf="@+id/edtUser"
+        android:layout_above="@+id/btRg"
+        android:layout_alignTop="@+id/edtPass" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kid"
+        android:id="@+id/gifImageView9"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageView10"
+        android:layout_alignEnd="@+id/imageView10"
+        android:layout_below="@+id/btCancel" />
+
+
+</RelativeLayout>

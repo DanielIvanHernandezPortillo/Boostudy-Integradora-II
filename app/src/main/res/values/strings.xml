@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Boostudy</string>
+    <string name="app_namee">NumerosSonido</string>
+    <string name="title_activity_diez_diez">diez_diez</string>
+    <string name="siguiente"><![CDATA[Siguiente ->]]></string>
+    <string name="registro">Registro</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="erase_tag">#FFFFFF</string>
+
+</resources>

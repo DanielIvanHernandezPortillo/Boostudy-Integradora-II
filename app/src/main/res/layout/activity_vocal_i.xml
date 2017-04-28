@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:background="@drawable/fondolibro"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/abeja"
+        android:id="@+id/iv_abeja"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/espejo"
+        android:id="@+id/iv_espejo"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/iv_ostra"
+        android:layout_alignStart="@+id/iv_ostra" />
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/icendio"
+        android:id="@+id/iv_incendio"
+        android:onClick="level2o"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/iv_urraca"
+        android:layout_alignStart="@+id/iv_urraca" />
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/ostra"
+        android:id="@+id/iv_ostra"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/iv_abeja"
+        android:layout_toStartOf="@+id/iv_abeja"
+        android:layout_marginRight="34dp"
+        android:layout_marginEnd="34dp" />
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/urraca"
+        android:id="@+id/iv_urraca"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/iv_abeja"
+        android:layout_toEndOf="@+id/iv_abeja"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp" />
+
+</RelativeLayout>

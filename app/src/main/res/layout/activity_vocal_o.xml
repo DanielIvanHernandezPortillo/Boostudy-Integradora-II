@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mx.edu.utng.abc.MainActivity"
+    android:background="@drawable/fondolibro"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/ardilla"
+        android:id="@+id/iv_ardlla"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/escoba"
+        android:id="@+id/iv_escoba"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/iv_ojo"
+        android:layout_alignStart="@+id/iv_ojo" />
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/iguana"
+        android:id="@+id/iv_iguana"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/iv_uvas"
+        android:layout_alignStart="@+id/iv_uvas" />
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/ojo"
+        android:id="@+id/iv_ojo"
+        android:onClick="level2u"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/iv_ardlla"
+        android:layout_toStartOf="@+id/iv_ardlla"
+        android:layout_marginRight="34dp"
+        android:layout_marginEnd="34dp" />
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/uvas"
+        android:id="@+id/iv_uvas"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/iv_ardlla"
+        android:layout_toEndOf="@+id/iv_ardlla"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp" />
+
+</RelativeLayout>

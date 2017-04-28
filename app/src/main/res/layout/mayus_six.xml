@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondomayus">
+
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_info"
+        android:background="@drawable/info"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/target_two"
+        android:layout_toEndOf="@+id/target_two"
+        android:layout_alignTop="@+id/target_two" />
+
+    <LinearLayout
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/target_two"
+        android:background="#b31ec1"
+        android:layout_width="120dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wmay"
+            android:id="@+id/iv_three" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/target_three"
+        android:background="#21c4ae"
+        android:layout_width="120dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/umay"
+            android:id="@+id/iv_four" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="100dp"
+        android:id="@+id/target_on"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="#d1d80d"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="120dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/xmay"
+            android:id="@+id/iv_two" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="100dp"
+        android:id="@+id/target_four"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_weight="1"
+        android:padding="0dp"
+        android:weightSum="1"
+        android:paddingTop="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="120dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vmay"
+            android:id="@+id/iv_one"
+            android:layout_weight="0.24"
+            android:padding="0dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0dd828"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:background= "@drawable/wmin"
+                android:id="@+id/bt_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:background= "@drawable/umin"
+                android:id="@+id/bt_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background= "@drawable/xmin"
+                android:id="@+id/bt_three" />
+
+            <Button
+                android:background= "@drawable/vmin"
+                android:id="@+id/bt_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:text="Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/bt_main"
+        android:background="#28990f" />
+
+    <Button
+        android:text="Siguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/bt_main"
+        android:layout_alignStart="@+id/bt_main"
+        android:id="@+id/bt_siguiente"
+        android:background="#e5cd1c" />
+
+</RelativeLayout>

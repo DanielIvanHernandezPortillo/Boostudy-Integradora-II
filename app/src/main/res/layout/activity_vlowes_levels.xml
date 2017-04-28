@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:background="@drawable/fondoo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vocales"
+        android:textSize="90dp"
+        android:id="@+id/tv_title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vocales"
+        android:id="@+id/bt_facil"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="33dp"
+        android:onClick="Facil"
+        android:layout_below="@+id/tv_title"
+        android:layout_toLeftOf="@+id/tv_title"
+        android:layout_toStartOf="@+id/tv_title"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abecedario"
+        android:id="@+id/bt_medio"
+        android:background="@color/green"
+        android:onClick="Medio"
+        android:layout_alignTop="@+id/bt_facil"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>

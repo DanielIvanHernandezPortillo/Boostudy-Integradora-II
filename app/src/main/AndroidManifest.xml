@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.boostudy.danielarguello.boostudy">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name="com.boostudy.danielarguello.boostudy.registro.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.boostudy.danielarguello.boostudy.Dificult"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.animal.AnimalSong"
+            android:screenOrientation="landscape"></activity>
+
+        <activity android:name="com.boostudy.danielarguello.boostudy.animal.AnimalSongTwo"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.figure.FigureNameSeven"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.figure.FigureNameOne"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.figure.FigureNameTwo"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.figure.FigureNameThree"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.figure.FigureNameFour"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.figure.FigureNameFive"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.figure.FigureNameSix"
+        android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.animal.AnimalSongThree"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.figure.FigureNameEight"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.animal.AnimalSongFour"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.num.NumberOneOne"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.num.TenAndTen"
+            android:screenOrientation="landscape"></activity>
+
+        <activity android:name="com.boostudy.danielarguello.boostudy.mayusculas.MayusOne"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.mayusculas.MayusTwo"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.mayusculas.MayusThree"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.mayusculas.MayusFour"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.mayusculas.MayusFive"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.mayusculas.MayusSix"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.mayusculas.MayusSeven"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.crias.CriasOne"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.crias.CriasTwo"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.crias.CriasThree"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.crias.CriasFour"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.num.NumberOne"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.num.NumberTwo"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.num.NumberZero"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.num.NumberThree"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.num.NumberFour"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.num.NumberFive"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.num.NumberSix"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.num.NumberSeven"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.num.NumberEight"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.num.NumberNine"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.num.NumberTen"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.vocal.MainVocal"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.vocal.WordLevel1Activity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.vocal.WordLevel2Activity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.vocal.WordLevel3Activity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.vocal.VocalAActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.vocal.VocalEActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.vocal.VocalIActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.vocal.VocalOActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.vocal.VocalUActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.vocal.LevelsVlowes"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.vocal.VocalLevel1Activity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.colores.ColorLevel1Activity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.colores.ColorLevel2Activity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.colores.LevelsColors"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.registro.Registro"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.boostudy.danielarguello.boostudy.group.AgroupTwo"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.group.AgroupOne"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.group.AgroupZero"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.group.AgroupThree"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.num.MainNum"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.colorear.MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.letras.ColorLetra"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.MainActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.letras.LetrasColoresActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.letras.LetrasColoresUnoActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="com.boostudy.danielarguello.boostudy.letras.LetrasColoresdosActivity"
+            android:screenOrientation="landscape"></activity>
+
+
+
+
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+
+            >
+
+            <LinearLayout
+                android:id="@+id/target_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <ImageButton
+
+                    android:id="@+id/ib_one"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/fnaranga" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/target_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <ImageButton
+
+                    android:id="@+id/ib_two"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/aamarilla" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/target_three"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:background="#fff">
+
+                <ImageButton
+
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/ib_three"
+                    android:src="@drawable/crosa"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+            <ImageButton
+                android:text="Diez"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/ib_play"
+                android:layout_weight="1"
+                android:onClick="presionePlay"
+                android:layout_gravity="center"
+                android:background="@drawable/sound"
+                android:layout_above="@+id/bt_siguiente"
+                android:layout_alignLeft="@+id/bt_siguiente"
+                android:layout_alignStart="@+id/bt_siguiente"
+                android:layout_marginBottom="16dp" />
+
+
+        <Button
+            android:text="Siguiente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_siguiente"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#dcc813"
+            android:onClick="iniciarNumberTen"/>
+
+    </RelativeLayout>

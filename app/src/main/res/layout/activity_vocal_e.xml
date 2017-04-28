@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:background="@drawable/fondolibro"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/anillo"
+        android:id="@+id/iv_anillo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/empanada"
+        android:id="@+id/iv_empanada"
+        android:onClick="level2i"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/iv_olla"
+        android:layout_alignStart="@+id/iv_olla" />
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/iglu"
+        android:id="@+id/iv_iglu"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/iv_unicornio"
+        android:layout_alignStart="@+id/iv_unicornio" />
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/olla"
+        android:id="@+id/iv_olla"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/iv_anillo"
+        android:layout_toStartOf="@+id/iv_anillo"
+        android:layout_marginRight="34dp"
+        android:layout_marginEnd="34dp" />
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/unicornio"
+        android:id="@+id/iv_unicornio"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

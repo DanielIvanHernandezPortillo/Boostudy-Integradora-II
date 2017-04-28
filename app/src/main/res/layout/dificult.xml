@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/dificult">
+
+    <Button
+        android:text="Facil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp"
+        android:id="@+id/bt_1"
+        android:background="@android:color/holo_green_light" />
+
+    <Button
+        android:text="Dificil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bt_3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="42dp"
+        android:layout_marginEnd="42dp"
+        android:id="@+id/bt_2"
+        android:background="@android:color/holo_red_dark" />
+
+    <Button
+        android:text="Medio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_3"
+        android:background="@android:color/holo_orange_light"
+        android:layout_alignBaseline="@+id/bt_1"
+        android:layout_alignBottom="@+id/bt_1"
+        android:layout_centerHorizontal="true" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sole"
+        android:id="@+id/iv_sol"
+        android:layout_above="@+id/bt_2"
+        android:layout_alignLeft="@+id/bt_2"
+        android:layout_alignStart="@+id/bt_2"
+        android:layout_marginBottom="45dp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="100dp"
+        android:src="@drawable/arbol"
+        android:id="@+id/iv_arbol"
+        android:layout_height="100dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/bt_3"
+        android:layout_alignStart="@+id/bt_3" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/avion"
+        android:layout_alignBottom="@+id/iv_sol"
+        android:layout_alignLeft="@+id/bt_1"
+        android:layout_alignStart="@+id/bt_1"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/iv_avion" />
+</RelativeLayout>

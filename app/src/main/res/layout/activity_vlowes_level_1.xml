@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:background="@drawable/fondoo"
+    >
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:src="@drawable/aa"
+        android:id="@+id/iv_a"
+        android:layout_alignTop="@+id/iv_e"
+        android:layout_toRightOf="@+id/bt_go_to_back"
+        android:layout_toEndOf="@+id/bt_go_to_back" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ee"
+        android:id="@+id/iv_e"
+        android:layout_alignTop="@+id/iv_i"
+        android:layout_toRightOf="@+id/iv_a"
+        android:layout_toEndOf="@+id/iv_a"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ii"
+        android:id="@+id/iv_i"
+        android:layout_alignTop="@+id/iv_o"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:src="@drawable/oo"
+        android:id="@+id/iv_o"
+        android:layout_alignTop="@+id/iv_u"
+        android:layout_toRightOf="@+id/iv_i"
+        android:layout_toEndOf="@+id/iv_i"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:src="@drawable/uu"
+        android:id="@+id/iv_u"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/iv_o"
+        android:layout_toEndOf="@+id/iv_o"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_go_to_back"
+        android:text=" Regresar "
+        android:onClick="ToGoBack"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_next_level"
+        android:text="Siguiente \n nivel"
+        android:onClick="Level2A"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="550dp"
+        android:layout_height="60dp"
+        android:id="@+id/bt_info"
+        android:background="@drawable/info"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/iv_u"
+        android:layout_toEndOf="@+id/iv_u"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp" />
+
+</RelativeLayout>

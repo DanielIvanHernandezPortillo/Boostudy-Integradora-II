@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/gl_images"
+    android:columnCount="2"
+    >
+   <!--<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ranita"
+    android:id="@+id/iv_ranita"
+       android:layout_margin="20dp"
+    />
+
+
+
+   <ImageView
+       android:layout_width="160dp"
+       android:layout_height="179dp"
+       ndroid:src="@drawable/mariposa"
+       android:id="@+id/iv_mariposa"
+       android:layout_margin="20dp"
+       />-->
+
+
+</GridLayout>
+

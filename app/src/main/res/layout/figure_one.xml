@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/fondofig">
+
+
+    <Button
+        android:text="Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_main"
+        android:background="@android:color/holo_green_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginTop="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/target_one"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:background="#e35f5f"
+           >
+
+            <ImageView
+
+                android:text="Target1"
+                android:layout_width="97dp"
+                android:layout_height="60dp"
+                android:id="@+id/iv_one"
+                android:src="@drawable/cu"
+
+                android:paddingLeft="32dp"
+                android:layout_weight="3.80" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/target_two"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:background="#90ef75">
+
+            <ImageView
+                android:text="Target2"
+                android:layout_width="97dp"
+                android:layout_height="60dp"
+                android:id="@+id/iv_two"
+                android:src="@drawable/regla"
+                android:paddingLeft="32dp"
+                android:layout_weight="3.80"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/target_three"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:background="#85e4df">
+
+            <ImageView
+                android:text="Target3"
+                android:layout_width="97dp"
+                android:layout_height="60dp"
+                android:id="@+id/iv_three"
+                android:src="@drawable/warning"
+                android:paddingLeft="32dp"
+                android:layout_weight="3.80"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/target_four"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:background="#da7eea">
+
+            <ImageView
+                android:text="Target4"
+                android:layout_width="97dp"
+                android:layout_height="60dp"
+                android:id="@+id/iv_four"
+                android:src="@drawable/relojj"
+                android:paddingLeft="10dp"
+                android:layout_weight="3.80"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="100dp"
+        android:id="@+id/btnTarget"
+        android:layout_above="@+id/bt_siguiente"
+        android:layout_alignLeft="@+id/bt_siguiente"
+        android:layout_alignStart="@+id/bt_siguiente"
+        android:weightSum="1"
+        android:paddingBottom="10dp"
+        android:layout_height="100dp">
+
+        <Button
+
+            android:layout_width="75dp"
+            android:layout_height="79dp"
+            android:id="@+id/bt_one"
+            android:background= "@drawable/triangulo"
+            android:layout_marginBottom="21dp"
+            android:layout_weight="0.58"
+            android:layout_above="@+id/bt_siguiente"
+            android:layout_alignLeft="@+id/btnTarget"
+            android:layout_alignStart="@+id/btnTarget"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:text="Siguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_siguiente"
+
+        android:background="#dcc813"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_info"
+        android:background="@drawable/info"
+        android:layout_alignBaseline="@+id/bt_siguiente"
+        android:layout_alignBottom="@+id/bt_siguiente"
+        android:layout_toLeftOf="@+id/btnTarget"
+        android:layout_toStartOf="@+id/btnTarget"
+        android:layout_marginRight="161dp"
+        android:layout_marginEnd="161dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/fondoo"
+    >
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:src="@drawable/morado"
+        android:id="@+id/iv_purple"
+        android:layout_marginLeft="88dp"
+        android:layout_marginStart="88dp"
+        android:layout_alignTop="@+id/iv_violet"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:src="@drawable/violeta"
+        android:id="@+id/iv_violet"
+        android:layout_marginLeft="72dp"
+        android:layout_marginStart="72dp"
+        android:layout_above="@+id/bt_info"
+        android:layout_toRightOf="@+id/iv_purple"
+        android:layout_toEndOf="@+id/iv_purple"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:src="@drawable/naranja"
+        android:id="@+id/iv_orange"
+        android:layout_marginLeft="67dp"
+        android:layout_marginStart="67dp"
+        android:layout_above="@+id/bt_info"
+        android:layout_toRightOf="@+id/iv_violet"
+        android:layout_toEndOf="@+id/iv_violet"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_go_to_back"
+        android:text=" Regresar "
+        android:onClick="ToGoBack"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/bt_info"
+        android:background="@drawable/info"/>
+
+</RelativeLayout>
